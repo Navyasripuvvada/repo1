@@ -1,0 +1,128 @@
+.head{
+   background-color:#8B5CF6;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.head nav ul li h2{
+    font-family:  "Brush Script MT", cursive;
+}
+.head nav ul li{
+    display: inline-flex;
+    padding-left: 30px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.head nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.head nav ul li a:hover{
+    font-size: 20px;
+}
+.head nav ul li:first-child{
+    padding-right:600px;
+}
+.head nav ul li img{
+    position: relative;
+    top: 20px;
+    border-radius: 50px;
+}
+.intro{
+    background-color:#C4B5FD;
+    position: relative;
+    height: 200px;
+    top:-15px;
+    border-bottom: 1px solid white;
+}
+.intro p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 25px;
+    padding-top: 50px;
+    color:rgb(67, 6, 125);
+}
+.edu{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(61, 64, 150) ;
+     background-color:#DDD6FE;
+    padding: 20px;
+    position: relative;
+    top: -35px;
+
+}
+.cards{
+    height:300px;
+     background-color:#DDD6FE;
+    border-bottom:1px solid white;
+    position: relative;
+    top:-55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.card1{
+    height:200px;
+    width:250px;
+    border: 2px solid rgb(79, 79, 168);
+    margin: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    
+}
+.card1 li{
+    list-style: none;
+   color: rgb(79, 79, 168);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding-bottom: 10px;
+
+}
+.project{
+    height: 200px;
+  background-color:#E9D5FF;
+  position: relative;
+  top:-80px;
+  padding: 30px;
+  border-bottom:1px solid white;
+}
+.project h2{
+      color:#4C1D95   ;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.project h3{
+   color:#4C1D95 ;
+   font-family: sans-serif;
+   padding-left:40px;
+}
+.project p{
+    color: #5B21B6 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 60px;
+}
+.exp{
+    height: 150px;
+    background-color:#ae95da; 
+    border-bottom:1px solid white;
+    position: relative;
+  top:-80px;
+  padding: 30px;
+}
+.exp h2{
+     color: #5B21B6 ;
+      font-family:Arial, Helvetica, sans-serif;
+}
+.exp ul li{
+     color: #6D28D9; ;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-left:40px;
+   list-style: none;
+   font-size: 15px;
+}
+footer{
+    height: 40px;
+    color:white ;
+     background-color:#8B5CF6;
+     position: relative;
+     top:-110px;
+     text-align: center;
+     padding-top: 10px;
+}
